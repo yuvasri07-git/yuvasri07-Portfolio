@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuvasri Vasamsetty — Cybersecurity student focused on network security, Python security tools and practical security engineering.">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>Yuvasri Vasamsetty | Cybersecurity Portfolio</title>
+  <link rel="icon" href="assets/ys icon.avif" type="image/avif">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-line"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Yuvasri Vasamsetty home"><span class="brand-mark">Y<span>.</span></span><span>YUVASRI<span class="brand-muted"> / PORTFOLIO</span></span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#achievements">Achievements</a><a href="#contact" class="nav-cta">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> CYBERSECURITY STUDENT <span class="eyebrow-divider">/</span> VISAKHAPATNAM, INDIA</div>
+        <h1>Building practical<br>security skills. <span class="headline-accent">One project<br>at a time.</span></h1>
+        <p class="hero-lede">I'm Yuvasri Vasamsetty, a cybersecurity undergraduate interested in penetration-testing, Python-based security tools and security engineering.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore projects <span>↓</span></a>
+          <a class="button button-secondary" href="https://github.com/yuvasri07-git" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a>
+        </div>
+        <div class="hero-meta"><span> B.Tech CSE — Cyber Security</span><span>Expected graduation: 2028</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Decorative network illustration">
+        <div class="visual-label">Profile</div>
+        <div class="network-grid">
+         <img src="assets/6aae405400d44_download.jpg" />
+        </div>
+        <div class="visual-caption"><span class="pulse"></span>YUVASRI VASAMSETTY</div>
+      </div>
+    </section>
+
+    <section class="quick-facts section-wrap" aria-label="Quick facts">
+      <div><strong>8.78/10</strong><span>CGPA</span></div>
+      <div><strong>03</strong><span>Featured projects</span></div>
+      <div><strong>Python</strong><span>Primary scripting language</span></div>
+      <div><strong>Pentesting</strong><span>Security focus</span></div>
+    </section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>Curious about how<br>systems can be secured.</h2></div>
+      <div class="section-body about-body">
+        <p>I'm pursuing a B.Tech in Computer Science and Engineering (Cyber Security) at Vignan's Institute of Information Technology. My current focus is strengthening my foundations in networking, Linux and Python while building small, demonstrable security tools.</p>
+        <p>I learn by implementing, testing and documenting. The projects below reflect my current hands-on work; they are learning projects and are not presented as professional penetration-testing engagements.</p>
+        <div class="about-tags"><span>Penetration-testing</span><span>Security automation</span><span>Python tooling</span><span>Continuous learning</span></div>
+      </div>
+    </section>
+
+    <section class="content-section projects-section" id="projects">
+      <div class="section-wrap">
+        <div class="section-heading"><span class="section-index">02 / SELECTED WORK</span><h2>Projects &amp; builds.</h2><p class="heading-note">Practical tools built to understand network visibility and basic security checks.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-topline"><span class="project-number">PROJECT 01</span><span class="project-type">PYTHON / NETWORK SECURITY</span></div>
+            <div class="project-illustration scanner-art"><div class="terminal-bar"><i></i><i></i><i></i><span>scan_report.txt</span></div><div class="terminal-content"><p><b>$</b> python scanner.py --target host</p><p class="terminal-dim">Scanning TCP ports 1–1024...</p><p><span class="terminal-green">[OPEN]</span> Port / Service</p><p><span class="terminal-green">[INFO]</span> HTTP security headers</p><p class="terminal-dim">Report generated.</p></div></div>
+            <h3>Basic Web &amp; Network Vulnerability Scanner</h3>
+            <p class="project-description">A Python-based learning tool that scans TCP ports 1–1024, identifies open ports, performs basic banner-based service identification and checks selected HTTP security headers.</p>
+            <div class="tag-list"><span>Python</span><span>Nmap</span><span>Requests</span><span>Socket</span></div>
+            <div class="project-actions"><a href="https://github.com/yuvasri07-git/Basic-Web-Network-Vulnerability-Scanner" target="_blank" rel="noopener noreferrer">View source code ↗</a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span class="project-number">PROJECT 02</span><span class="project-type">PYTHON / PACKET ANALYSIS</span></div>
+            <div class="project-illustration packet-art"><div class="packet-row packet-head"><span>TIME</span><span>SOURCE</span><span>PROTOCOL</span><span>LEN</span></div><div class="packet-row"><span>10:42:01</span><span>192.168.1.4</span><span class="proto">TCP</span><span>128</span></div><div class="packet-row"><span>10:42:02</span><span>8.8.8.8</span><span class="proto dns">DNS</span><span>74</span></div><div class="packet-row"><span>10:42:03</span><span>192.168.1.1</span><span class="proto arp">ARP</span><span>60</span></div><div class="packet-row"><span>10:42:04</span><span>142.250.x.x</span><span class="proto">TCP</span><span>512</span></div></div>
+            <h3>Network Traffic Analyzer &amp; ARP Device Scanner</h3>
+            <p class="project-description">A desktop tool using Scapy and PyQt5 to capture and inspect live network packets, filter protocols, export data to CSV and check user-supplied IP addresses using ARP.</p>
+            <div class="tag-list"><span>Python</span><span>Scapy</span><span>PyQt5</span><span>Pandas</span></div>
+            <div class="project-actions"><a href="https://github.com/yuvasri07-git" target="_blank" rel="noopener noreferrer">Find repository on GitHub ↗</a></div>
+            <p class="link-note">The repository link will be updated to the direct project URL once confirmed.</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span class="project-number">PROJECT 03</span><span class="project-type">AI WORKFLOW / MCP</span></div>
+            <div class="project-illustration workflow-art"><div class="workflow-node">EMAIL</div><span class="workflow-arrow">→</span><div class="workflow-node workflow-node-blue">MCP<br>WORKFLOW</div><span class="workflow-arrow">→</span><div class="workflow-node">DRAFT<br>POST</div></div>
+            <h3>AI-Assisted Email-to-LinkedIn Workflow</h3>
+            <p class="project-description">Configured and tested an existing MCP server with Cursor to process email content and prepare a LinkedIn post. The MCP server itself was not developed by me.</p>
+            <div class="tag-list"><span>Cursor</span><span>MCP</span><span>Workflow testing</span></div>
+            <div class="project-actions"><a href="https://github.com/yuvasri07-git/AI-Workflow-Assistant-using-MCP" target="_blank" rel="noopener noreferrer">View source code ↗</a></div>
+          </article>
+        </div>
+        <p class="section-footnote">All projects are educational builds. Test scanning tools only on systems and networks you own or are explicitly authorized to assess.</p>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="skills">
+      <div class="section-heading"><span class="section-index">03 / TOOLKIT</span><h2>Technical foundation.</h2></div>
+      <div class="skills-layout">
+        <div class="skill-group"><h3>Programming &amp; scripting</h3><div class="skill-items"><span>Python</span><span>C</span><span>Java</span><span>Html</span><span>Css</span><span>JavaScript</span></div></div>
+        <div class="skill-group"><h3>Networking</h3><div class="skill-items"><span>TCP/IP</span><span>DNS</span><span>HTTP/HTTPS</span><span>ARP</span><span>ICMP</span><span>Subnetting</span><span>OSI model</span></div></div>
+        <div class="skill-group"><h3>Security &amp; analysis tools</h3><div class="skill-items"><span>Nmap</span><span>Wireshark</span><span>Scapy</span><span>python-nmap</span><span>Requests</span><span>Socket</span></div></div>
+        <div class="skill-group"><h3>Platforms &amp; libraries</h3><div class="skill-items"><span>Linux</span><span>Windows</span><span>Git / GitHub</span><span>PyQt5</span><span>Pandas</span></div></div>
+      </div>
+      <p class="skill-note">Skills reflect coursework and project-level practice; proficiency varies by tool and topic.</p>
+    </section>
+
+    <section class="content-section experience-section" id="experience">
+      <div class="section-wrap">
+        <div class="section-heading"><span class="section-index">04 / LEARNING &amp; EXPERIENCE</span><h2>Learning through<br>structured practice.</h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><div class="timeline-date">AUG — OCT 2026</div><div><h3>Fortinet Network Security Associate Virtual Intern</h3><p class="timeline-org">EduSkills · Virtual internship · 8 weeks</p><p>Completed guided learning and labs covering firewall policies and logging, web filtering, IPS, application control, IPsec VPN, ZTNA, PKI, authentication, access control and cloud security concepts.</p></div></article>
+          <article class="timeline-item"><div class="timeline-date">MAY — JUN 2026</div><div><h3>Cyber Crime Intern</h3><p class="timeline-org">Visakhapatnam City Security Council</p><p>Supported documentation and routine administrative activities, including organizing records under staff guidance.</p></div></article>
+        </div>
+        <h2>Workshops</h2>
+        <div class="ws-grid">
+          <div class="ws-card"><span class="ws-label">EWB COURES</span><br><a href="https://lnkd.in/p/g6ThB2Rm" target="_blank" rel="noopener noreferrer"><img src="assets/ewb.png" height="198.33333333333px" width="280.33333333333px"/></a><h3>Three-Days Hands on Workshop on Cybersecurity &amp; Ethical Hacking</h3><p>Worked on reconnaissance, OSINT, network scanning, vulnerability assessment and ethical hacking tools</p></div>
+          <div class="ws-card"><span class="ws-label">PYNET LABS</span><br><a href="https://lnkd.in/p/gzfCrfru" target="_blank" rel="noopener noreferrer"><img src="assets/pynets.jpg" height="198.33333333333px" width="280.33333333333px"/></a><h3>Workshop on Networking Fundamentals</h3><p>The session covered core concepts including TCP/IP and OSI models, how networks operate, types of hackers, cybersecurity career paths, and a practical introduction to Kali Linux. The workshop provided clear insights into real-world networking and security fundamentals</p></div>
+          <div class="ws-card"><span class="ws-label">NXTWAVE</span><br><a href="https://lnkd.in/p/gJ38TEHC" target="_blank" rel="noopener noreferrer"><img src="assets/MCP.png" height="198.33333333333px" width="280.33333333333px"/></a><h3>MCP Mega Workshop</h3><p>During the workshop, I connected tools like Gmail, LinkedIn, and workflow automation platforms using Cursor IDE and Pipedream. By integrating these services, I built an AI assistant that can understand prompts and execute meaningful tasks — such as drafting and sending emails, generating content, and triggering actions across connected platforms.</p></div>
+          
+        </div>
+        <br><h2>Certifcation</h2>
+        <div class="cert-grid">
+          <div class="cert-card"><span class="cert-label">NPTEL · 12 WEEKS</span><br><img src="assets/nptel.jpeg" height="198.33333333333px" width="280.33333333333px"><h3>The Joy of Computing using Python</h3><p>90% · Elite + Golden Batch</p></div>
+          <div class="cert-card"><span class="cert-label">CISCO</span><br><img src="assets/ccna img.jpeg" height="198.33333333333px" width="280.33333333333px"/><h3>CCNA: Introduction to Networks</h3><p>Networking fundamentals</p></div>
+          <div class="cert-card"><span class="cert-label">FutureLearn </span><br><img src="assets/future learn.jpg" height="280.33333333333px" width="198.33333333333px"/><h3>Introduction to Cybersecurity</h3><p>This 8-week journey helped me strengthen my foundations across: Threats & malware, Authentication & access control, Networking & network security, Cryptography, Firewalls, VPNs & IDS/IPS &amp; Security risk management</p></div>
+          <br><div class="cert-card"><span class="cert-label">FORAGE</span><br><img src="assets/forage.jpg" height="198.33333333333px" width="280.33333333333px"/><h3>Cybersecurity Job Simulations</h3><p>Mastercard &amp; Deloitte</p></div>
+          <div class="cert-card"><span class="cert-label">SCALER</span><br><img src="assets/dbms.jpg" height="198.33333333333px" width="280.33333333333px"/><h3>DBMS</h3><p>SQL</p></div>
+          <div class="cert-card"><span class="cert-label">CISCO</span><br><img src="assets/c.png" height="198.33333333333px" width="280.33333333333px"/><h3>C Essentials 1</h3><p>C Essentials 1 will immerse you in the syntax, semantics, and data types that make C so influential</p></div>
+          <br><div class="cert-card"><span class="cert-label">CISCO</span><br><img src="assets/js.png" height="198.33333333333px" width="280.33333333333px"/><h3>JavaScript Essentials 1</h3><p>Learnt how interactive web and mobile applications are created with this text-based programming language</p></div>
+          <div class="cert-card"><span class="cert-label">FORTINET</span><br><img src="assets/nse 3 cs.png" height="170px" width="170px"/><br><a href="https://www.credly.com/badges/d313bf86-6b29-4b22-84ad-84ee9a3975b1/linked_in?t=tmda52" target="_blank" rel="noopener noreferrer">Verify here!</a><h3>Fortinet NSE 3 Certified in Cybersecurity</h3><p></p></div>
+          <div class="cert-card"><span class="cert-label">FORTINET</span><br><img src="assets/foetigate.png" height="170px" width="170px"/><br><a href="https://www.credly.com/badges/3b1b788c-64a9-4cb5-adcc-84c2730d736e/linked_in?t=tmd9qc" target="_blank" rel="noopener noreferrer">Verify here!</a><h3>Fortinet FortiGate 7.6 Operator</h3><p></p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section section-wrap" id="education">
+      <div class="section-heading"><span class="section-index">05 / EDUCATION</span><h2>Academic background.</h2></div>
+      <div class="education-card"><div><span class="education-date">2024 — 2028 · EXPECTED</span><h3>B.Tech, Computer Science and Engineering (Cyber Security)</h3><p>Vignan's Institute of Information Technology</p></div><strong>8.78<span>/10</span></strong><br>
+    </div>
+    <br><a href="assets/amarks.png" target="_blank" rel="noopener noreferrer"><img src="assets/amarks.png" height="500px" width="800px" alt="marks list"></a>
+    </section>
+
+    <section class="content-section achievements-section" id="achievements">
+      <div class="section-wrap">
+        <div class="section-heading"><span class="section-index">06 / ACHIEVEMENTS</span><h2>Earned through<br>effort</h2></div>
+        <div class="ws-grid">
+          <div class="ws-card"><span class="ws-label">Table Tennis</span><br><a href="https://drive.google.com/drive/folders/1V93wRDXgUmzy1sg-ocWYlFJqLZlb6MPD?usp=drive_link" target="_blank" rel="noopener noreferrer"><img src="assets/tt.png" height="198.33333333333px" width="280.33333333333px"/></a><h3>South Zone Inter-University Women’s Table Tennis Trials 2026</h3><p>I secured 4th place in the South Zone Inter-University Women’s Table Tennis Trials NSRIT College</p></div>
+          <div class="ws-card"><span class="ws-label">Freshers Party Champion</span><br><a href="https://lnkd.in/p/gb4wn_ae" target="_blank" rel="noopener noreferrer"><img src="assets/nanobanana.jpg" height="198.33333333333px" width="280.33333333333px"/></a><h3>Google Student Ambassador Session – 𝐅𝐫𝐞𝐬𝐡𝐞𝐫𝐬' 𝐏𝐚𝐫𝐭𝐲</h3><p> I designed a Freshers' Party Night Edition poster and generated an event schedule using Google Gemini and Nano Banana.</p></div>
+          <div class="ws-card"><span class="ws-label">400MTS RELAY</span><br><a href="assets/400mts.jpg" target="_blank" rel="noopener noreferrer"><img src="assets/400mts.jpg" height="198.33333333333px" width="280.33333333333px"/></a><h3>400M Relay</h3><p>My team secured 2nd Place (with a ₹600 cash prize) in the 400m Relay at Yuvtarang 2025, our college's national-level youth festival! 🏃‍♂️🥈</p></div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-wrap contact-inner">
+        <div><span class="section-index">07 / GET IN TOUCH</span><h2>Let's connect.</h2><p>I'm interested in cybersecurity internships, practical learning opportunities and conversations around network security.</p></div>
+        <div class="contact-links"><a href="mailto:yuvasrivasamsetty@gmail.com">yuvasrivasamsetty@gmail.com ↗</a><a href="https://www.linkedin.com/in/yuvasri-vasamsetty-cscys1321" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/yuvasri07-git" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© <span id="year"></span> Yuvasri Vasamsetty</span><span>Built with HTML, CSS &amp; JavaScript</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
